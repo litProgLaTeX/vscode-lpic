@@ -80,7 +80,7 @@
     ]
   },
   "scripts": {
-    "package": "reset && npm run lint && npm run build && npm run dist && npm version patch && vsce package",
+    "package": "reset && npm run updatesyntax && npm run lint && npm run build && npm run dist && npm version patch && vsce package",
     "updatesyntax" : "cpy --flat node_modules/lpic-syntaxes/lpicSyntaxes/*.tmGrammar.json syntaxes",
     "dist": "webpack",
     "build": "tsc -p .",
