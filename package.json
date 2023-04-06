@@ -2,10 +2,10 @@
   "name": "lpic-tools",
   "displayName": "LPiC Tools",
   "description": "LPiC for VS Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "preview": true,
   "publisher": "lpic-tools",
-  "icon" : "images/lpic.icon.png",
+  "icon": "images/lpic.icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/litProgConTeXt/litProgConTeXt"
@@ -37,24 +37,32 @@
     "languages": [
       {
         "id": "context",
-        "aliases" : [ "ConTeXt" ],
-        "extensions": [ ".tex" ],
-        "firstLine" : "[Cc]on[Tt]e[Xx]t",
-        "configuration" : "./languages/context.json",
-        "icon" : {
-          "light" : "./images/context.icon.png",
-          "dark" : "./images/context.icon.png"
+        "aliases": [
+          "ConTeXt"
+        ],
+        "extensions": [
+          ".tex"
+        ],
+        "firstLine": "[Cc]on[Tt]e[Xx]t",
+        "configuration": "./languages/context.json",
+        "icon": {
+          "light": "./images/context.icon.png",
+          "dark": "./images/context.icon.png"
         }
       },
       {
         "id": "lpic",
-        "aliases" : [ "LPiC" ],
-        "extensions": [ ".tex" ],
-        "firstLine" : "[Ll][Pp]i[Cc]",
-        "configuration" : "./languages/lpic.json",
-        "icon" : {
-          "light" : "./images/lpic.icon.png",
-          "dark" : "./images/lpic.icon.png"
+        "aliases": [
+          "LPiC"
+        ],
+        "extensions": [
+          ".tex"
+        ],
+        "firstLine": "[Ll][Pp]i[Cc]",
+        "configuration": "./languages/lpic.json",
+        "icon": {
+          "light": "./images/lpic.icon.png",
+          "dark": "./images/lpic.icon.png"
         }
       }
     ],
