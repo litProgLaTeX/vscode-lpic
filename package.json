@@ -33,7 +33,7 @@
     "Programming"
   ],
   "main": "./dist/extension.js",
-  "activateionEvents": [
+  "activationEvents": [
     "onLanguage:lpic"
   ],
   "contributes": {
