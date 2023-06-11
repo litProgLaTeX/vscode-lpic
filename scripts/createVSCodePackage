@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# This bash script uses npm to create a updated VSCode package suitable
+# for loading in to VSCode.
+
+
+if ! npm run package ; then
+  echo ""
+  echo "You may need to (re) install the vsce command/package globally"
+  echo ""
+  echo "To do this, type:"
+  echo "  npm install --global vsce"
+  echo ""
+fi
+

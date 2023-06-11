@@ -33,6 +33,9 @@
     "Programming"
   ],
   "main": "./dist/extension.js",
+  "activateionEvents" : [
+  	"onLanguage:lpic"
+  ],
   "contributes": {
     "languages": [
       {
