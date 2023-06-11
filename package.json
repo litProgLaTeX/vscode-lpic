@@ -2,7 +2,7 @@
   "name": "lpic-tools",
   "displayName": "LPiC Tools",
   "description": "LPiC for VS Code",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "preview": true,
   "publisher": "lpic-tools",
   "icon": "images/lpic.icon.png",
